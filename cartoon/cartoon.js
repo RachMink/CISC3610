@@ -174,9 +174,9 @@ function init(){
   //UFO dome (radial color)
   var rg = ctx.createRadialGradient(200, 500, 125, 300, 270, 125);
   // add colors
-  rg.addColorStop(1, "da73fa");
-  rg.addColorStop(0.5, "00fcf8");
-  rg.addColorStop(0, "00fcf8");
+  rg.addColorStop(1, "#da73fa");
+  rg.addColorStop(0.5, "#00fcf8");
+  rg.addColorStop(0, "#00fcf8");
   // set the fill style to the new gradient
   ctx.fillStyle = rg;
   // draw some filled objects; in this case the dome
