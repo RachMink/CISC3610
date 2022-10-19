@@ -6,3 +6,4 @@ Professor Lawrence Goetz
 Projects Included:
 
 - Mars JavaScript Cartoon
+- Butterfly Animation
