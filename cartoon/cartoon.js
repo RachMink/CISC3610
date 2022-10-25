@@ -172,7 +172,7 @@ function init(){
   }
 
   //UFO dome (radial color)
-  var rg = ctx.createRadialGradient(200, 500, 125, 300, 270, 125);
+  let rg = ctx.createRadialGradient(200, 500, 125, 300, 270, 125);
   // add colors
   rg.addColorStop(1, "#da73fa");
   rg.addColorStop(0.5, "#00fcf8");
