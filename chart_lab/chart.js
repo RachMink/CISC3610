@@ -22,4 +22,9 @@ function init(){
       xValue += 200;
       
     }
+
+    ctx.fillStyle = "black";
+
+    ctx.font = "30px Arial";
+    ctx.fillText("Rachel Minkowitz", 10 ,30); 
 }
