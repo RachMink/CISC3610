@@ -14,8 +14,8 @@
         <div class="container">
             <h1 class="title">Fill out this form to see your name prettier :)</h1>
 
-            <form  onsubmit="">
-                Name: <input type="text" name="name" id="nameField"/><br />
+            <form>
+                Name: <input class="input column is-one-quarter" type="text" name="name" id="nameField"/><br />
                 Background Color:
                 <input type="color" name="bgcolor" id="bgcolor" value="#ffffff"/><br />
                 Text Color:
@@ -30,17 +30,19 @@
                 <label for="times" style="font-family: Times New Roman;">Times New Roman</label><br />
                 <input type="radio" id="courier" name="font" value="courier" />
                 <label for="courier" style="font-family: Courier New">Courier New</label><br /><br />
-                   
+                  
+                <div class="tile is-ancestor">
+                    <div class="tile is-6 is-parent is-vertical" id="parentOutput">
+                        <div class="tile is-child box" id="output">
+                            <p id="textOutput"></p>
+                        </div>
+                    </div>
+                </div>
+
                 <input type="button" class="button is-dark is-medium is-responsive is-centered" id="reset" value="Reset" />
             </form>
 
-            <div class="tile is-ancestor">
-                <div class="tile is-6 is-parent is-vertical" id="parentOutput">
-                    <div class="tile is-child box" id="output">
-                        <p id="textOutput"></p>
-                    </div>
-                </div>
-            </div>
+            
             <script src="form.js"></script>
             <div class="container has-text-centered">
                 <a class="button is-light is-large is-responsive is-centered"
