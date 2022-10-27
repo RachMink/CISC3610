@@ -5,7 +5,7 @@ let nameField = document.getElementById("nameField");
 
 nameField.onkeydown = updateNameDisplay;
 nameField.onkeyup = updateNameDisplay;
-nameField.onkeypress = updateNameDisplay;
+
 function updateNameDisplay() {
   var thisValue = nameField.value || "??";
   document.getElementById("textOutput").innerHTML = thisValue;
@@ -52,9 +52,20 @@ courier.addEventListener("change", function () {
   document.getElementById("output").style.fontFamily = "Courier New";
 });
 
+
+// reset button functionality
+var resetButton = document.getElementById("reset");
+resetButton.addEventListener("click", reset)
+
 function reset() {
-  window.alert("hello");
-  document.getElementById("output").style.fontSize = "12px";
-  document.getElementById("output").style.backgroundColor = "white";
-  document.getElementById("output").style.color= "blue";
+  document.getElementById("nameField").value= null;
+  document.getElementById("bgcolor").value = "#ffffff";
+  document.getElementById("textColor").value = "#000000";
+  document.getElementById("myRange").value = "12";
+  document.getElementById("brush").checked = false;
+  document.getElementById("courier").checked = false;
+  document.getElementById("times").checked = false; 
+  document.getElementById("output").style.fontFamily = "Helvetica";
+  document.getElementById("textOutput").innerHTML = null;
+  document.getElementById("output").style.backgroundColor = null;
 }
