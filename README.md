@@ -8,3 +8,4 @@ Projects Included:
 - Mars JavaScript Cartoon
 - Butterfly Animation
 - Fruit Bar chart
+- Text Form Project
