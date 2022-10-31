@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Audio Lab</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css" />
+</head>
+
+<body>
+    <script src="audio.js"></script>
+    
+
+    <h1 class="title is-centered"> Rachel Minkowitz - audio lab</h1>
+    <h3 class="subtitle is-centered">click any instrument to hear it's music!</h3>
+
+    
+    <img src="oneManBand.jpg" alt="one man band" usemap="#oneManBand">
+    
+    <div id="overlayr1">&nbsp;</div>
+    <div id="overlayr2">&nbsp;</div>
+    <map name="oneManBand">
+        <area target="" alt="drum" title="drum" onclick="drumPlay()" coords="271,521,132" shape="circle" id="r1">
+        <area target="" alt="trambone" title="trambone" onclick="trombonePlay()"
+            coords="420,188,446,200,469,242,485,315,485,368,402,399,349,365,266,371" shape="poly" id="r2">
+        <area target="" alt="symbol" title="symbol" onclick="symbolPlay()" coords="373,936,45" shape="circle">
+        <area target="" alt="Tamborine" title="Tamborine" onclick="tamborinePlay()" coords="107,604,47" shape="circle">
+        <area target="" alt="trumpet" title="trumpet" onclick="trumpetPlay()" coords="783,393,572,470" shape="rect">
+        <area target="" alt="accordion" title="accordion"
+            coords="524,550,580,515,583,479,640,471,687,586,634,738,547,769" shape="poly" onclick="playAccordion()"
+            id="area1">
+        <area target="" alt="triangle" title="triangle" onclick="trianglePlay()" coords="344,688,389,768,302,772"
+            shape="poly">
+        <area target="" alt="symbol2" title="symbol2" onclick="symbolPlay()"
+            coords="185,398,150,385,73,408,107,491,137,506" shape="poly">
+        <area target="" alt="symbol3" title="symbol3" onclick="symbolPlay()" coords="514,970,48" shape="circle">
+        <area target="" alt="drum2" title="drum2" onclick="drumPlay()" coords="231,729,63" shape="circle">
+    </map>
+
+    <div class="container has-text-centered">
+        <a class="button is-light is-large is-responsive is-centered" href="https://rachmink.github.io/CISC3610/">
+            Back to Portfolio</a>
+    </div>
+
+</body>
