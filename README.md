@@ -9,3 +9,4 @@ Projects Included:
 - Butterfly Animation
 - Fruit Bar chart
 - Text Form Project
+- Music man Audio Lab
