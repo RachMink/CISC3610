@@ -10,3 +10,7 @@ Projects Included:
 - Fruit Bar chart
 - Text Form Project
 - Music man Audio Lab
+- Voice Recognition Project
+- Data Visualization Project
+- Bootstrap Resume
+- Wick Animation Lab
