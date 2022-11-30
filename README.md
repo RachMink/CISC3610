@@ -14,3 +14,4 @@ Projects Included:
 - Data Visualization Project
 - Bootstrap Resume
 - Wick Animation Lab
+- Wick Drag and Drop
